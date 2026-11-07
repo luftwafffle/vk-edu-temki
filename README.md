@@ -8,7 +8,7 @@
 <img width="1058" height="729" alt="Lean canvas проекта" src="https://github.com/user-attachments/assets/a6e3be5c-e415-447b-ae88-ae74aa74b750" />
 
 После изменений в ДЗ 2:
-
+<img width="1078" height="737" alt="image" src="https://github.com/user-attachments/assets/8d968f15-5d03-4c5e-a7bf-2483af1d197e" />
 
 # ДЗ №2:  
 ### Оценка рисков.
