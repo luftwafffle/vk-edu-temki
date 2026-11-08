@@ -249,4 +249,27 @@ LTV : 3 000 руб. * 12 месяцев = 36 000 руб.
      ***И:*** NoiseIndex заведения не изменяется
 
 ### Wireframes.
+*В задании было написано "Набросайте квадратиками", я набросал и квадратиками тоже, а дальше фотки, собранные с нейронкой, мне кажется так нагляднее*    
+
+#### Экран 1: Главная карта с фильтрами
+<img width="250" height="475" alt="image" src="https://github.com/user-attachments/assets/14a52ae2-2861-4e3e-893e-754241c08df9" />
+
+<img width="250" height="475" alt="image" src="https://github.com/user-attachments/assets/ff0aeaa7-580f-466c-b35c-dda268c12fff" />
+
+
+#### Экран 2: Карточка заведения
+<img width="250" height="475" alt="image" src="https://github.com/user-attachments/assets/d41eced8-a2dd-4b10-ba98-e750e5084206" />
+
+<img width="250" height="475" alt="image" src="https://github.com/user-attachments/assets/f17b1bb6-1219-483b-a4dc-d6082c6a3e96" />
+
+
+#### Экран 3: Успешная оценка 
+<img width="250" height="475" alt="image" src="https://github.com/user-attachments/assets/77f95dd8-5a05-4b5c-919f-d749032d1b3d" />      
+
+<img width="250" height="475" alt="image" src="https://github.com/user-attachments/assets/35f9823a-c4c1-4ef8-9897-84188963ccf9" />
+
+
+
+
+
 
