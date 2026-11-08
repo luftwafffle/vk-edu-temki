@@ -268,8 +268,65 @@ LTV : 3 000 руб. * 12 месяцев = 36 000 руб.
 
 <img width="250" height="475" alt="image" src="https://github.com/user-attachments/assets/35f9823a-c4c1-4ef8-9897-84188963ccf9" />
 
+### API-First: JSON-контракты.
 
+#### Ручка 1: Получение списка ближайших заведений. (GET)
+***Запрос:***
+```
+GET /api/v1/places?lat=55.7558&lon=37.6173&radius=1000&filter=quiet
+```
 
+***Ответ:***
+```
+{
+  "status": "success",
+  "count": 2,
+  "places": [
+    {
+      "id": "place_101",
+      "name": "Кофейня №1",
+      "address": "ул. Тверская, 10",
+      "coordinates": { "lat": 55.7559, "lon": 37.6175 },
+      "current_noise_level": "quiet", 
+      "has_sockets": true,
+      "has_wifi": true,
+      "rating": 4.8
+    },
+    {
+      "id": "place_102",
+      "name": "Коворкинг 'Тишина'",
+      "address": "ул. Арбат, 5",
+      "coordinates": { "lat": 55.7520, "lon": 37.5900 },
+      "current_noise_level": "medium",
+      "has_sockets": true,
+      "has_wifi": true,
+      "rating": 4.2
+    }
+  ]
+}
+```
 
+#### Ручка 2: Отправка оценки в 1 клик. (POST)
 
+***Запрос:***
+```
+POST /api/v1/places/place_101/rate
+Content-Type: application/json
+
+{
+  "user_id": "user_777",
+  "noise_level": "quiet", 
+  "timestamp": "2026-11-07T14:30:00Z"
+}
+```
+***Ответ:***
+```
+{
+  "status": "success",
+  "message": "Оценка принята",
+  "points_earned": 5,
+  "updated_place_rating": 4.9,
+  "next_rating_available_at": "2026-11-07T16:30:00Z"
+}
+```
 
